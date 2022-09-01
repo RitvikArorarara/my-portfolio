@@ -20,10 +20,10 @@ const About = () => {
             <ol className="text-xl mt-2">
                 <li>B.Tech : 8.2 CGPA </li>
                 <li>12th : 78%</li>
-                <div className="pb-8 mt-2">
-                    <li className="text-4xl font-bold inline border-b-4 border-gray-500 p-2">Certifications</li>
+                <div className="pb-8 mt-6">
+                    <li className="text-3xl font-bold inline border-b-4 border-gray-500 p-2">Certifications</li>
                 </div>
-            <ol className="text-xl mt-2">
+            <ol className="mt-2">
                 <li>Data Structures and Algorithms and Web Development : 2022 </li>
                 <li>Introduction to Programming Using Python : 2019</li>
             </ol>
