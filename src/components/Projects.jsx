@@ -1,7 +1,6 @@
 import React from "react";
 import LogoReels from '../assets/portfolio/Reels.jpg'
-import LogoExcel from '../assets/portfolio/Excel.png'
-import LogoToDo from '../assets/portfolio/jira.png'
+import gamer from '../assets/portfolio/gamer.png'
 import LogoCam from '../assets/portfolio/Camera.jpg'
 import Logoev from '../assets/portfolio/Logoev.jpg'
 
@@ -9,34 +8,30 @@ const Project = () => {
   const projects = [
     {
       id:1,
+      src: gamer,
+      demo: 'https://games-selling-app-ritvik.vercel.app/',
+      git: 'https://github.com/RitvikArorarara/Games-Selling-App',
+    },
+    {
+      id:3,
       src: Logoev,
       demo: 'https://major-project-neon.vercel.app/majorproject/index.html' ,
       git: 'https://github.com/RitvikArorarara/House-Pricing-Model',
     },
     {
-      id:2,
+      id:4,
       src: LogoReels,
       demo: 'https://ritvik-reels.netlify.app/login',
       git: 'https://github.com/RitvikArorarara/Reels-App',
     },
     {
-      id:3,
+      id:5,
       src: LogoCam,
       demo: 'https://ritvik-cameraapp.netlify.app/',
       git: 'https://github.com/RitvikArorarara/Camera-App',
     },
-    {
-      id:4,
-      src: LogoExcel,
-      demo: 'https://ritvik-excelclone.netlify.app/',
-      git: 'https://github.com/RitvikArorarara/Excel-Clone',
-    },
-    {
-      id:5,
-      src: LogoToDo,
-      demo: 'https://ritvik-jiraclone.netlify.app/',
-      git: 'https://github.com/RitvikArorarara/Jira-App',
-    },
+    
+   
   ];
 
   return (
@@ -58,7 +53,7 @@ const Project = () => {
               <img
                 src={src}
                 alt=""
-                className="rounded-md duration-200 hover:scale-105"
+                className="rounded-md duration-200 hover:scale-105 "
               />
               <div className="flex items-center justify-center">
                 <form action={demo}

@@ -8,7 +8,9 @@ import java from '../assets/java.png'
 import python from '../assets/python.png'
 import dsa from '../assets/dsa.png'
 import sql from '../assets/sql.png'
-
+import MUI from '../assets/MUI.jpg'
+import MSSQL from '../assets/MSSQL.png'
+import TS from '../assets/TS.png'
 
 const Skills = () => {
 
@@ -58,13 +60,31 @@ const Skills = () => {
         {
             id: 8,
             src: sql,
-            title: 'SQL',
+            title: 'MYSQL',
             style: 'shadow-cyan-800',
         },
         {
             id: 9,
             src: bootstrap,
             title: 'BootStrap',
+            style: 'shadow-violet-700',
+        },
+        {
+            id: 10,
+            src: TS,
+            title: 'TypeScript',
+            style: 'shadow-white',
+        },
+        {
+            id: 11,
+            src: MSSQL,
+            title: 'MSSQL',
+            style: 'shadow-cyan-800',
+        },
+        {
+            id: 12,
+            src: MUI,
+            title: 'MUI',
             style: 'shadow-violet-700',
         },
     ]

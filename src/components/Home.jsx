@@ -1,5 +1,5 @@
 import React from 'react'
-import HeroImage from '../assets/Image.png'
+import HeroImage from '../assets/Image.jpg'
 import {MdOutlineKeyboardArrowRight} from 'react-icons/md'
 import { Link } from 'react-scroll';
 
@@ -12,7 +12,7 @@ const Home = () => {
         <div className="flex flex-col justify-center h-full">
             <h2 className="text-4xl sm:text-7xl font-bold text-white ">Ritvik Arora</h2>
             <p className=" text-gray-500 py-4 max-w-md ">
-              Here you can find about the work I have done throughout my undergraduate degree
+              Here you can find about the work I have done throughout my undergraduate degree and the projects I have worked on.
             </p>
             <div>
                 <Link to="Projects" className="group text-white w-fit px-6 py-3 my-2 
