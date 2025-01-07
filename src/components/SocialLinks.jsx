@@ -58,7 +58,7 @@ const SocialLinks = () => {
           <BsFillPersonLinesFill size={30} />
         </>
       ),
-      href: "/Ritvik_Arora_Resume.pdf",
+      href: "/resume.pdf",
       style: "bg-gray-500 rounded-br-md",
       download: true,
     },
