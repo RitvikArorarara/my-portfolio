@@ -3,6 +3,7 @@ import LogoReels from '../assets/portfolio/Reels.jpg'
 import gamer from '../assets/portfolio/gamer.png'
 import LogoCam from '../assets/portfolio/Camera.jpg'
 import Logoev from '../assets/portfolio/Logoev.jpg'
+import brain from '../assets/portfolio/brain.png'
 
 const Project = () => {
   const projects = [
@@ -11,6 +12,12 @@ const Project = () => {
       src: gamer,
       demo: 'https://games-selling-app-ritvik.vercel.app/',
       git: 'https://github.com/RitvikArorarara/Games-Selling-App',
+    },
+    {
+      id:2,
+      src: brain,
+      demo: 'https://second-brain-9866.vercel.app/',
+      git: 'https://github.com/RitvikArorarara/Second_Brain'
     },
     {
       id:3,
